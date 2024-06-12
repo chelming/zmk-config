@@ -90,8 +90,8 @@ MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
             compatible: "zmk,behavior-hold-tap";
             label: "MOD_TAP_LEFT";
             #binding-cells = <2>;
-            flavor = "balanced"
-                        tapping-term-ms = <280>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
@@ -159,12 +159,12 @@ MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
 
             bindings = <
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &kp TAB       &kp X         &kp C         &kp L         &kp F        &kp V           &kp Z          &kp Y         &kp O         &kp U         &kp '         &kp BSPC
+    &none         &kp X         &kp C         &kp L         &kp F        &kp V           &kp Z          &kp Y         &kp O         &kp U         &kp '         &none   
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-//  &kp LCTRL     &kp R         &kp S         &kp N         &kp T         &kp P           &kp K         &kp H         &kp E         &kp I         &kp A         &kp SQT
-    &kp LCTRL     &hml LGUI R   &hml LALT S   &hml LSHFT N  &hml LCTRL T  &kp P           &kp K         &hmr RCTRL H  &hmr RSHFT E  &hmr LALT I   &hmr LGUI A   &kp SQT
+//  &none         &kp R         &kp S         &kp N         &kp T         &kp P           &kp K         &kp H         &kp E         &kp I         &kp A         &none  
+    &none         &hml LGUI R   &hml LALT S   &hml LSHFT N  &hml LCTRL T  &kp P           &kp K         &hmr RCTRL H  &hmr RSHFT E  &hmr LALT I   &hmr LGUI A   &none  
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp LSHFT     &kp Q         &kp W         &kp M         &kp G         &kp B           &kp J         &kp D         &kp COMMA     &kp DOT       &kp FSLH      &kp ESC
+    &none         &kp Q         &kp W         &kp M         &kp G         &kp B           &kp J         &kp D         &kp COMMA     &kp DOT       &kp FSLH      &none  
 //╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                               &kp LGUI      &sl NAV_L     &kp SPACE       &sk LSHFT     &sl SYM_L     &none
 //                                          ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯
