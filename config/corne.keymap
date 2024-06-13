@@ -115,12 +115,11 @@
 
             bindings = <
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &none         &kp X         &kp C         &kp L         &kp F        &kp V           &kp Z          &kp Y         &kp O         &kp U         &kp '         &none   
+    &none         &kp X         &kp C         &kp L         &kp F        &kp V           &kp Z          &kp Y         &kp O         &kp U         &kp QUOT      &none
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-//  &none         &kp R         &kp S         &kp N         &kp T         &kp P           &kp K         &kp H         &kp E         &kp I         &kp A         &none  
-    &none         &mtl LGUI R   &mtl LALT S   &mtl LSHFT N  &mtl LCTRL T  &kp P           &kp K         &mtr RCTRL H  &mtr RSHFT E  &mtr LALT I   &mtr LGUI A   &none  
+    &none         &mtl LGUI R   &mtl LALT S   &mtl LSHFT N  &mtl LCTRL T  &kp P           &kp K         &mtr RCTRL H  &mtr RSHFT E  &mtr LALT I   &mtr LGUI A   &none
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &none         &kp Q         &kp W         &kp M         &kp G         &kp B           &kp J         &kp D         &kp COMMA     &kp DOT       &kp FSLH      &none  
+    &none         &kp Q         &kp W         &kp M         &kp G         &kp B           &kp J         &kp D         &kp COMMA     &kp DOT       &kp FSLH      &none
 //╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                               &kp LGUI      &sl NAV_L     &kp SPACE       &sk LSHFT     &sl SYM_L     &none
 //                                          ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯
@@ -139,13 +138,13 @@
 	    label = "Nav";
             bindings = <
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &none         &kp F5        &kp F6        &kp F7        &kp F8        &none           &none         &kp ESC       &kp UARW      &kp TAB       &kp HOME      &none       
+    &none         &kp F5        &kp F6        &kp F7        &kp F8        &none           &none         &kp ESC       &kp UARW      &kp TAB       &kp HOME      &none
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &none         &kp LGUI      &kp LALT      &kp LSHFT     &kp LCTL      &none           &kp PG_UP     &kp LARW      &kp ENTER     &kp RARW      &kp END       &none
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &none         &none         &kp CUT       &kp COPY      &kp PASTE     &kp UNDO        &kp PKG_DN    &kp BSPC      &kp DARW      &kp DEL       &none         &none 
+    &none         &none         &kp CUT       &kp COPY      &kp PASTE     &kp UNDO        &kp PKG_DN    &kp BSPC      &kp DARW      &kp DEL       &none         &none
 //╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                              &trans        &trans        &trans          &trans        &trans        &trans            
+                                              &trans        &trans        &trans          &trans        &trans        &trans
 //                                          ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯
             >;
         };
