@@ -5,8 +5,8 @@ layers:
   - C
   - L
   - F
-  - V
-  - Z
+  - P
+  - K
   - Y
   - O
   - U
@@ -17,20 +17,20 @@ layers:
   - {t: S, h: LALT}
   - {t: N, h: LSHFT}
   - {t: T, h: LCTRL}
-  - P
-  - K
+  - B
+  - J
   - {t: H, h: RCTRL}
   - {t: E, h: RSHFT}
   - {t: I, h: LALT}
   - {t: A, h: LGUI}
   - ''
   - ''
-  - Q
+  - ''
   - W
   - M
   - G
-  - B
-  - J
+  - ''
+  - ''
   - D
   - ','
   - .
@@ -60,7 +60,7 @@ layers:
   - LALT
   - LSHFT
   - LCTL
-  - ''
+  - Ctl+ Z
   - PG UP
   - LARW
   - ENTER
@@ -72,7 +72,7 @@ layers:
   - Ctl+ X
   - Ctl+ C
   - Ctl+ V
-  - Ctl+ Z
+  - ''
   - PG DN
   - BSPC
   - DARW
@@ -87,40 +87,40 @@ layers:
   - {t: ▽, type: trans}
   sym:
   - ''
-  - ''
+  - '!'
   - '@'
   - '#'
   - $
-  - ''
-  - ''
+  - '%'
+  - ^
   - '&'
   - ;
   - ':'
-  - ''
-  - ''
-  - ''
-  - '!'
-  - '='
-  - '-'
-  - /
-  - '%'
-  - ^
-  - LCTRL
-  - LSHFT
-  - LALT
   - '?'
   - ''
   - ''
   - '~'
+  - '='
+  - '-'
+  - /
+  - '`'
+  - \
+  - LCTRL
+  - LSHFT
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - ''
   - _
   - +
   - '*'
-  - '`'
-  - \
+  - ''
+  - ''
   - '|'
   - <
   - '>'
-  - LGUI
+  - ''
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -210,11 +210,5 @@ combos:
   k: BSPC
 - p: [19, 20, 21]
   k: ENTER
-  l: [default]
-  align: bottom
-  offset: -0.1
 - p: [14, 15, 16]
   k: TAB
-  l: [default]
-  align: bottom
-  offset: -0.1
