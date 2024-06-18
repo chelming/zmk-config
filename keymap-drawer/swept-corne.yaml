@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+layout:
 layers:
   default:
   - ''
@@ -219,5 +219,3 @@ combos:
   l: [default]
   align: bottom
   offset: -0.1
-=======
->>>>>>> 6f115082e2a3d397a5b2ccef4181a3327d749436
