@@ -47,8 +47,6 @@
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
-            hold-trigger-on-release;
-            global-quick-tap;
         };
         mtr: mod_tap_right {
             compatible = "zmk,behavior-hold-tap";
@@ -59,8 +57,6 @@
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
-            hold-trigger-on-release;
-            global-quick-tap;
         };
     };
     conditional_layers {
