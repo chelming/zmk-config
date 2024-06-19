@@ -203,6 +203,9 @@ combos:
   k: DEL
 - p: [6, 18]
   k: ESC
+  l: [default]
+  a: bottom
+  o: -0.1
 - p: [26, 27]
   k: Ctl+ A
   l: [nav]
@@ -212,3 +215,6 @@ combos:
   k: ENTER
 - p: [14, 15, 16]
   k: TAB
+  l: [default]
+  a: bottom
+  o: -0.1
