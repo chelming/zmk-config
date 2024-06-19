@@ -1,0 +1,6 @@
+# configuration for https://github.com/caksoylar/keymap-drawer
+parse_config:
+  zmk_combos:
+    esc: {a: bottom, o: -0.1, l: [default]}
+    tab: {a: bottom, o: -0.1, l: [default]}
+
