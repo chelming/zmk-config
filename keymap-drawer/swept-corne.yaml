@@ -34,7 +34,7 @@ layers:
   - D
   - ','
   - .
-  - /
+  - ''
   - ''
   - LGUI
   - {t: nav, h: sticky}
@@ -184,28 +184,31 @@ combos:
 - p: [2, 14]
   k: '['
   l: [default, sym, num]
+  draw_separate: true
 - p: [9, 21]
   k: ']'
   l: [default, sym, num]
+  draw_separate: true
 - p: [3, 15]
   k: '{'
   l: [default, sym, num]
+  draw_separate: true
 - p: [8, 20]
   k: '}'
   l: [default, sym, num]
+  draw_separate: true
 - p: [4, 16]
   k: (
   l: [default, sym, num]
+  draw_separate: true
 - p: [7, 19]
   k: )
   l: [default, sym, num]
+  draw_separate: true
 - p: [5, 17]
   k: DEL
 - p: [6, 18]
   k: ESC
-  l: [default]
-  a: bottom
-  o: -0.1
 - p: [26, 27]
   k: Ctl+ A
   l: [nav]
@@ -213,6 +216,9 @@ combos:
   k: BSPC
 - p: [19, 20, 21]
   k: ENTER
+  l: [default]
+  a: bottom
+  o: -0.1
 - p: [14, 15, 16]
   k: TAB
   l: [default]
