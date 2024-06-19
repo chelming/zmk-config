@@ -1,11 +1,14 @@
 # configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
   zmk_combos:
-    enter: {a: bottom, o: -0.1, l: [default]}
-    tab: {a: bottom, o: -0.1, l: [default]}
     lpar: {draw_separate: true}
     rpar: {draw_separate: true}
     lbrc: {draw_separate: true}
     rbrc: {draw_separate: true}
     lbkt: {draw_separate: true}
     rbkt: {draw_separate: true}
+    enter: {draw_separate: true}
+    tab: {draw_separate: true}
+    bspc: {draw_separate: true}
+    del: {draw_separate: true}
+    esc: {draw_separate: true}
