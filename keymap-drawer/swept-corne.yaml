@@ -1,4 +1,3 @@
-layout:
 layers:
   default:
   - ''
@@ -211,11 +210,5 @@ combos:
   k: BSPC
 - p: [19, 20, 21]
   k: ENTER
-  l: [default]
-  align: bottom
-  offset: -0.1
 - p: [14, 15, 16]
   k: TAB
-  l: [default]
-  align: bottom
-  offset: -0.1
