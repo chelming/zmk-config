@@ -207,20 +207,19 @@ combos:
   draw_separate: true
 - p: [5, 17]
   k: DEL
+  draw_separate: true
 - p: [6, 18]
   k: ESC
+  draw_separate: true
 - p: [26, 27]
   k: Ctl+ A
   l: [nav]
 - p: [8, 9]
   k: BSPC
+  draw_separate: true
 - p: [19, 20, 21]
   k: ENTER
-  l: [default]
-  a: bottom
-  o: -0.1
+  draw_separate: true
 - p: [14, 15, 16]
   k: TAB
-  l: [default]
-  a: bottom
-  o: -0.1
+  draw_separate: true
