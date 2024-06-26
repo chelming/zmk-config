@@ -1,0 +1,16 @@
+if SHIELD_SAY_GAY_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Say Gay"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SAY_GAY_LEFT || SHIELD_SAY_GAY_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

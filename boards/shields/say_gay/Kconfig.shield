@@ -1,0 +1,5 @@
+config SHIELD_SAY_GAY_LEFT
+    def_bool $(shields_list_contains,say_gay_left)
+
+config SHIELD_SAY_GAY_RIGHT
+    def_bool $(shields_list_contains,say_gay_right)

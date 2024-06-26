@@ -1,0 +1,13 @@
+file_format: "1"
+id: say_gay
+name: Say Gay
+type: shield
+url: https://github.com/chelming/say_gay
+requires: [pro_micro]
+exposes: [nice_view_header]
+features:
+  - keys
+  - display
+siblings:
+  - say_gay_left
+  - say_gay_right
