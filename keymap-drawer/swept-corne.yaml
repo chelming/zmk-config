@@ -36,7 +36,7 @@ layers:
   - .
   - ''
   - ''
-  - LGUI
+  - ''
   - {t: nav, h: sticky}
   - SPACE
   - {t: LSHFT, h: sticky}
@@ -49,7 +49,7 @@ layers:
   - F7
   - F8
   - ''
-  - ''
+  - PG UP
   - ESC
   - UARW
   - TAB
@@ -61,7 +61,7 @@ layers:
   - LSHFT
   - LCTL
   - Ctl+ Z
-  - PG UP
+  - PG DN
   - LARW
   - ENTER
   - RARW
@@ -73,7 +73,7 @@ layers:
   - Ctl+ C
   - Ctl+ V
   - ''
-  - PG DN
+  - ''
   - BSPC
   - DARW
   - DEL
@@ -129,13 +129,13 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   num:
+  - ''
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - ''
   - ''
   - ''
   - ''
