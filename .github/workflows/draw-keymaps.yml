@@ -5,7 +5,7 @@ on:
     paths:
       - "config/*.keymap"
       - "config/*.dtsi"
-      - "keymap-drawer/config.yml"
+      - "keymap-drawer/config.yaml"
       - ".github/workflows/draw-keymaps.yml"
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
       contents: write
     with:
       keymap_patterns: "config/*.keymap"
-      config_path: "keymap-drawer/config.yml"
+      config_path: "keymap-drawer/config.yaml"
       output_folder: "keymap-drawer"
       parse_args: ""
       draw_args: ""
