@@ -95,9 +95,9 @@
         del { key-positions = <5 17>; bindings = <&kp DEL>; };
         esc { key-positions = <6 18>; bindings = <&kp ESC>; };
         slall { key-positions = <26 27>; bindings = <&kp SALL>; layers = <NAV_L>; };
-        bspc { key-positions = <8 9>; bindings = <&kp BSPC>; };
         enter { key-positions = <19 20 21>; bindings = <&kp ENTER>; };
         tab { key-positions = <14 15 16>; bindings = <&kp TAB>; };
+        bspc { key-positions = <8 9>; bindings = <&kp BSPC>; };
 
     };
     keymap {
