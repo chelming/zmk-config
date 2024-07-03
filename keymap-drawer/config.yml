@@ -12,3 +12,9 @@ parse_config:
     bspc: {draw_separate: true}
     del: {draw_separate: true}
     esc: {draw_separate: true}
+
+  zmk_keycode_map:
+    UP: ↑
+    DOWN: ↓
+    LEFT: ←
+    RIGHT: →
