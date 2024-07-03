@@ -214,11 +214,11 @@ combos:
 - p: [26, 27]
   k: Ctl+ A
   l: [nav]
-- p: [19, 20, 21]
-  k: ENTER
-  draw_separate: true
 - p: [14, 15, 16]
   k: TAB
+  draw_separate: true
+- p: [19, 20, 21]
+  k: ENTER
   draw_separate: true
 - p: [8, 9]
   k: BSPC
