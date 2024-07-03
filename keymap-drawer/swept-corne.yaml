@@ -32,8 +32,8 @@ layers:
   - ''
   - ''
   - D
-  - COMMA
-  - DOT
+  - ','
+  - .
   - ''
   - ''
   - ''
@@ -87,24 +87,24 @@ layers:
   - {t: ▽, type: trans}
   sym:
   - ''
-  - EXCL
-  - AT
-  - HASH
-  - DLLR
-  - PRCNT
-  - CARET
-  - AMPS
-  - SEMI
-  - COLON
-  - QMARK
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - ;
+  - ':'
+  - '?'
   - ''
   - ''
-  - TILDE
-  - EQUAL
-  - MINUS
-  - FSLH
-  - GRAVE
-  - BSLH
+  - '~'
+  - '='
+  - '-'
+  - /
+  - '`'
+  - \
   - LCTRL
   - LSHFT
   - LALT
@@ -112,14 +112,14 @@ layers:
   - ''
   - ''
   - ''
-  - UNDER
-  - PLUS
-  - ASTRK
+  - _
+  - +
+  - '*'
   - ''
   - ''
-  - PIPE
-  - LT
-  - GT
+  - '|'
+  - <
+  - '>'
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -182,27 +182,27 @@ combos:
   k: Z
   l: [default]
 - p: [2, 14]
-  k: LBKT
+  k: '['
   l: [default, sym, num]
   draw_separate: true
 - p: [9, 21]
-  k: RBKT
+  k: ']'
   l: [default, sym, num]
   draw_separate: true
 - p: [3, 15]
-  k: LBRC
+  k: '{'
   l: [default, sym, num]
   draw_separate: true
 - p: [8, 20]
-  k: RBRC
+  k: '}'
   l: [default, sym, num]
   draw_separate: true
 - p: [4, 16]
-  k: LPAR
+  k: (
   l: [default, sym, num]
   draw_separate: true
 - p: [7, 19]
-  k: RPAR
+  k: )
   l: [default, sym, num]
   draw_separate: true
 - p: [5, 17]
