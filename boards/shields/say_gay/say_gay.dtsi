@@ -34,7 +34,7 @@ nice_view_spi: &spi0 {
 // Key scan setup
 / {
     chosen {
-        zmk,kscan = &kscan_0;
+        zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
     };
 
