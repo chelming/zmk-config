@@ -1,0 +1,20 @@
+{
+  "id": "say_gay",
+  "name": "say_gay",
+  "layouts": {
+    "default_transform": {
+      "name": "default_transform",
+      "layout": [
+        "ortho_layout": {
+          "split": true,
+          "rows": 3,
+          "columns": 5,
+          "thumbs": 2,
+          "drop_pinky": true,
+          "drop_inner": true
+        }
+      ]
+    }
+  },
+  "sensors": []
+}
