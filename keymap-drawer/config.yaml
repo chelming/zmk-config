@@ -68,6 +68,7 @@ parse_config:
     PRCNT: '%'
     QMARK: '?'
     QUESTION: '?'
+    QUOT: ''''
     RBKT: ']'
     RBRC: '}'
     RIGHT_BRACE: '}'
