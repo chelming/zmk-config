@@ -93,7 +93,7 @@
 
         /* Convenience */
         del { key-positions = <4 14>; bindings = <&kp DEL>; };
-        esc { key-positions = <5 14>; bindings = <&kp ESC>; };
+        esc { key-positions = <5 15>; bindings = <&kp ESC>; };
         slall { key-positions = <20 21>; bindings = <&kp SALL>; layers = <NAV_L>; };
         tab { key-positions = <11 12 13>; bindings = <&kp TAB>; };
         enter { key-positions = <16 17 18>; bindings = <&kp ENTER>; };
