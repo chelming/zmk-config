@@ -160,7 +160,7 @@ combos:
 - p: [4, 14]
   k: DEL
   draw_separate: true
-- p: [5, 14]
+- p: [5, 15]
   k: ESC
   draw_separate: true
 - p: [20, 21]
