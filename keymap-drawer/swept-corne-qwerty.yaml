@@ -1,41 +1,41 @@
 layers:
   default:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - ESC
+  - {t: A, h: LCTRL}
+  - {t: S, h: LALT}
+  - {t: D, h: LSHFT}
+  - {t: F, h: GUI}
+  - G
+  - H
+  - {t: J, h: RGUI}
+  - {t: K, h: RSHFT}
+  - {t: L, h: LALT}
+  - {t: ;, h: LCTRL}
   - ''
+  - ''
+  - Z
   - X
   - C
-  - L
-  - F
-  - P
-  - K
-  - Y
-  - O
-  - U
-  - QUOT
-  - ''
-  - ''
-  - {t: R, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: N, h: LSHFT}
-  - {t: T, h: LCTRL}
+  - V
   - B
-  - J
-  - {t: H, h: RCTRL}
-  - {t: E, h: RSHFT}
-  - {t: I, h: LALT}
-  - {t: A, h: LGUI}
-  - ''
-  - ''
-  - ''
-  - W
+  - '&kb N'
   - M
-  - G
-  - ''
-  - ''
-  - D
   - ','
   - .
-  - ''
-  - ''
+  - /
+  - ENTER
   - ''
   - {t: nav, h: sticky}
   - SPACE
@@ -56,10 +56,10 @@ layers:
   - HOME
   - ''
   - ''
-  - LGUI
+  - LCTRL
   - LALT
   - LSHFT
-  - LCTL
+  - LGUI
   - Ctl+ Z
   - PG DN
   - ←
@@ -105,10 +105,10 @@ layers:
   - /
   - '`'
   - \
-  - LCTRL
+  - LGUI
   - LSHFT
   - LALT
-  - LGUI
+  - LCTRL
   - ''
   - ''
   - ''
@@ -129,13 +129,13 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   num:
-  - ''
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
+  - ''
   - ''
   - ''
   - ''
@@ -172,15 +172,6 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
 combos:
-- p: [2, 3]
-  k: V
-  l: [default]
-- p: [3, 4]
-  k: Q
-  l: [default]
-- p: [26, 27]
-  k: Z
-  l: [default]
 - p: [2, 14]
   k: '['
   l: [default, sym, num]
