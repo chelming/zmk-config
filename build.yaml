@@ -20,6 +20,14 @@
 include:
   - board: nice_nano_v2
     shield: corne_left nice_view_adapter nice_view
+    cmake-args: -DKEYMAP_FILE=../../config/swept-corne-qwerty.keymap -DCONFIG_ZMK_KEYBOARD_NAME=\"swept-corne\" -DEXTRA_CONF_FILE=../../config/swept-corne-qwerty.conf
+    artifact-name: swept_corne_qwerty_left
+  - board: nice_nano_v2
+    shield: corne_right nice_view_adapter nice_view
+    cmake-args: -DKEYMAP_FILE=../../config/swept-corne-qwerty.keymap -DCONFIG_ZMK_KEYBOARD_NAME=\"swept-corne\" -DEXTRA_CONF_FILE=../../config/swept-corne-qwerty.conf
+    artifact-name: swept_corne_qwerty_right
+  - board: nice_nano_v2
+    shield: corne_left nice_view_adapter nice_view
     cmake-args: -DKEYMAP_FILE=../../config/swept-corne.keymap -DCONFIG_ZMK_KEYBOARD_NAME=\"swept-corne\" -DEXTRA_CONF_FILE=../../config/swept-corne.conf
     artifact-name: swept_corne_left
   - board: nice_nano_v2
