@@ -10,7 +10,7 @@ layers:
   - Y
   - O
   - U
-  - QUOT
+  - ''''
   - ''
   - ''
   - {t: R, h: LGUI}

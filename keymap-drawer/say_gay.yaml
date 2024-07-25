@@ -9,7 +9,7 @@ layers:
   - Y
   - O
   - U
-  - QUOT
+  - ''''
   - {t: R, h: LGUI}
   - {t: S, h: LALT}
   - {t: N, h: LSHFT}

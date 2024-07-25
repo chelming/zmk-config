@@ -23,7 +23,7 @@ layers:
   - {t: K, h: RSHFT}
   - {t: L, h: LALT}
   - {t: ;, h: LCTRL}
-  - ''
+  - ''''
   - ''
   - Z
   - X
