@@ -133,28 +133,28 @@ combos:
 - p: [20, 21]
   k: Z
   l: [default]
-- p: [0, 10]
-  k: '['
-  l: [default, sym, num]
-  draw_separate: true
-- p: [9, 19]
-  k: ']'
-  l: [default, sym, num]
-  draw_separate: true
-- p: [1, 11]
-  k: '{'
-  l: [default, sym, num]
-  draw_separate: true
-- p: [8, 18]
-  k: '}'
-  l: [default, sym, num]
-  draw_separate: true
 - p: [3, 13]
   k: (
   l: [default, sym, num]
   draw_separate: true
 - p: [6, 16]
   k: )
+  l: [default, sym, num]
+  draw_separate: true
+- p: [2, 12]
+  k: '{'
+  l: [default, sym, num]
+  draw_separate: true
+- p: [7, 17]
+  k: '}'
+  l: [default, sym, num]
+  draw_separate: true
+- p: [1, 11]
+  k: '['
+  l: [default, sym, num]
+  draw_separate: true
+- p: [8, 18]
+  k: ']'
   l: [default, sym, num]
   draw_separate: true
 - p: [4, 14]
