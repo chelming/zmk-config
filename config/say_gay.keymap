@@ -84,12 +84,12 @@
         z { key-positions = <20 21>; bindings = <&kp Z>; layers = <DEF_L>; };
 
         /* Brackets */
-        lbkt { key-positions = <0 10>; bindings = <&kp LBKT>; layers = <DEF_L SYM_L NUM_L>; };
-        rbkt { key-positions = <9 19>; bindings = <&kp RBKT>; layers = <DEF_L SYM_L NUM_L>; };
-        lbrc { key-positions = <1 11>; bindings = <&kp LBRC>; layers = <DEF_L SYM_L NUM_L>; };
-        rbrc { key-positions = <8 18>; bindings = <&kp RBRC>; layers = <DEF_L SYM_L NUM_L>; };
         lpar { key-positions = <3 13>; bindings = <&kp LPAR>; layers = <DEF_L SYM_L NUM_L>; };
         rpar { key-positions = <6 16>; bindings = <&kp RPAR>; layers = <DEF_L SYM_L NUM_L>; };
+        lbrc { key-positions = <2 12>; bindings = <&kp LBRC>; layers = <DEF_L SYM_L NUM_L>; };
+        rbrc { key-positions = <7 17>; bindings = <&kp RBRC>; layers = <DEF_L SYM_L NUM_L>; };
+        lbkt { key-positions = <1 11>; bindings = <&kp LBKT>; layers = <DEF_L SYM_L NUM_L>; };
+        rbkt { key-positions = <8 18>; bindings = <&kp RBKT>; layers = <DEF_L SYM_L NUM_L>; };
 
         /* Convenience */
         del { key-positions = <4 14>; bindings = <&kp DEL>; };
