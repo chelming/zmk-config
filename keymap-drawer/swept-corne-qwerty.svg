@@ -82,6 +82,10 @@ text.shifted {
     dominant-baseline: hanging;
 }
 
+text.layer-activator {
+    text-decoration: underline;
+}
+
 /* styling for hold/shifted label text in combo box */
 text.combo.hold, text.combo.shifted {
     font-size: 8px;
@@ -113,7 +117,7 @@ path.combo {
 /* End Tabler Icons Cleanup */
 </style>
 <g transform="translate(30, 0)" class="layer-default">
-<text x="0" y="28" class="label">default:</text>
+<text x="0" y="28" class="label" id="default">default:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 77)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -271,8 +275,9 @@ path.combo {
 </g>
 <g transform="translate(307, 224) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">nav</text>
-<text x="0" y="24" class="key hold">sticky</text>
+<a href="#nav">
+<text x="0" y="0" class="key tap layer-activator">nav</text>
+</a><text x="0" y="24" class="key hold">sticky</text>
 </g>
 <g transform="translate(366, 248) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -285,8 +290,9 @@ path.combo {
 </g>
 <g transform="translate(533, 224) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">sym</text>
-<text x="0" y="24" class="key hold">sticky</text>
+<a href="#sym">
+<text x="0" y="0" class="key tap layer-activator">sym</text>
+</a><text x="0" y="24" class="key hold">sticky</text>
 </g>
 <g transform="translate(594, 217)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -294,7 +300,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 342)" class="layer-nav">
-<text x="0" y="28" class="label">nav:</text>
+<text x="0" y="28" class="label" id="nav">nav:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 77)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -473,7 +479,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 684)" class="layer-sym">
-<text x="0" y="28" class="label">sym:</text>
+<text x="0" y="28" class="label" id="sym">sym:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 77)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -635,7 +641,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 1026)" class="layer-num">
-<text x="0" y="28" class="label">num:</text>
+<text x="0" y="28" class="label" id="num">num:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 77)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -800,7 +806,7 @@ path.combo {
 </g>
 </g>
 </g>
-<text x="30" y="1396" class="label">Combos:</text>
+<text x="30" y="1396" class="label" id="Combos">Combos:</text>
 <g transform="translate(30, 1368)" class="layer-combopos-0">
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
