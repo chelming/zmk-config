@@ -28,7 +28,7 @@ layers:
   - .
   - {t: nav, h: sticky}
   - SPACE
-  - {t: bt, h: sticky}
+  - {t: num, h: sticky}
   - {t: sym, h: sticky}
   nav:
   - F5
@@ -121,7 +121,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   bt:
   - BT CLR
@@ -150,10 +150,10 @@ layers:
   - ''
   - ''
   - ''
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
 combos:
 - p: [1, 2]
   k: V
