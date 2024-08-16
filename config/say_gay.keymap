@@ -13,7 +13,6 @@
 #define NAV_L 1
 #define SYM_L 2
 #define NUM_L 3
-#define BT_L 4
 
 /* Shortcuts */
 #define CUT LC(X)
@@ -61,12 +60,42 @@
             hold-trigger-key-positions = <KEYS_L THUMBS>;
 	    hold-trigger-on-release;
         };
+        btd0: bluetooth_tap_dance0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bt BT_SEL 0>;
+        };
+        btd1: bluetooth_tap_dance1 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bt BT_SEL 1>;
+        };
+        btd2: bluetooth_tap_dance2 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bt BT_SEL 2>;
+        };
+        btd3: bluetooth_tap_dance3 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bt BT_SEL 3>;
+        };
+        btd4: bluetooth_tap_dance4 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bt BT_SEL 4>;
+        };
     };
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
             if-layers = <NAV_L SYM_L>;
-            then-layer = <BT_L>;
+            then-layer = <NUM_L>;
         };
     };
     combos {
@@ -93,12 +122,14 @@
         rbkt { key-positions = <8 18>; bindings = <&kp RBKT>; layers = <DEF_L SYM_L NUM_L>; };
 
         /* Convenience */
-        del { key-positions = <4 14>; bindings = <&kp DEL>; };
+        del { key-positions = <4 14>; bindings = <&kp DEL>; layers = <SYM_L NUM_L>; };
         esc { key-positions = <5 15>; bindings = <&kp ESC>; };
         slall { key-positions = <20 21>; bindings = <&kp SALL>; layers = <NAV_L>; };
         tab { key-positions = <11 12 13>; bindings = <&kp TAB>; };
         enter { key-positions = <16 17 18>; bindings = <&kp ENTER>; };
-        bspc { key-positions = <7 8>; bindings = <&kp BSPC>; };
+        bspc { key-positions = <7 8>; bindings = <&kp BSPC>; layers = <SYM_L NAV_L NUM_L>; };
+
+	btclr { key-positions = <1 2 3>; bindings = <&bt BT_CLR>; layers = <NUM_L>; };
 
     };
     keymap {
@@ -114,7 +145,7 @@
 //╰─────────────┼─────────────┼─────────────┼─────────────┼─────────────╯ ╰─────────────┼─────────────┼─────────────┼─────────────┼─────────────╯
                   &kp W         &kp M         &kp G                                       &kp D         &kp COMMA     &kp DOT
 //              ╰─────────────┴─────────────┼─────────────┼─────────────╮ ╭─────────────┼─────────────┼─────────────┴─────────────╯
-                                              &sl NAV_L     &kp SPACE       &sl NUM_L     &sl SYM_L
+                                              &sl NAV_L     &kp SPACE       &sk LSHFT     &sl SYM_L
 //                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯
             >;
         };
@@ -153,24 +184,9 @@
             label = "Num";
             bindings = <
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &none         &none         &none         &none         &none           &none         &none         &none         &none         &none
+    &btd0         &btd1         &btd2         &btd          &btd4           &none         &none         &none         &none         &none
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &mtl LGUI N1  &mtl LALT N2  &mtl LSHFT N3 &mtl LCTRL N4 &kp N5          &kp N6        &mtr LCTRL N7 &mtr LSHFT N8 &mtr LALT N9  &mtr LGUI N0
-//╰─────────────┼─────────────┼─────────────┼─────────────┼─────────────╯ ╰─────────────┼─────────────┼─────────────┼─────────────┼─────────────╯
-                  &none         &none         &none                                       &none         &none         &none
-//              ╰─────────────┴─────────────┼─────────────┼─────────────╮ ╭─────────────┼─────────────┼─────────────┴─────────────╯
-                                              &trans        &trans          &trans        &trans
-//                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯
-            >;
-        };
-
-        bt {
-            label = "Bluetooth";
-            bindings = <
-//╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4  &none         &none         &none         &none
-//├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &none         &none         &none         &none         &none           &none         &none         &none         &none         &none
 //╰─────────────┼─────────────┼─────────────┼─────────────┼─────────────╯ ╰─────────────┼─────────────┼─────────────┼─────────────┼─────────────╯
                   &none         &none         &none                                       &none         &none         &none
 //              ╰─────────────┴─────────────┼─────────────┼─────────────╮ ╭─────────────┼─────────────┼─────────────┴─────────────╯
