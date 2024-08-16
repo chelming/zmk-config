@@ -28,7 +28,7 @@ layers:
   - .
   - {t: nav, h: sticky}
   - SPACE
-  - {t: num, h: sticky}
+  - {t: LSHFT, h: sticky}
   - {t: sym, h: sticky}
   nav:
   - F5
@@ -93,11 +93,11 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   num:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&btd0'
+  - '&btd1'
+  - '&btd2'
+  - '&btd'
+  - '&btd4'
   - ''
   - ''
   - ''
@@ -113,37 +113,6 @@ layers:
   - {t: '8', h: LSHFT}
   - {t: '9', h: LALT}
   - {t: '0', h: LGUI}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  bt:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - ''
   - ''
   - ''
@@ -190,6 +159,7 @@ combos:
   draw_separate: true
 - p: [4, 14]
   k: DEL
+  l: [sym, num]
   draw_separate: true
 - p: [5, 15]
   k: ESC
@@ -205,4 +175,8 @@ combos:
   draw_separate: true
 - p: [7, 8]
   k: BSPC
+  l: [sym, nav, num]
   draw_separate: true
+- p: [1, 2, 3]
+  k: BT CLR
+  l: [num]
