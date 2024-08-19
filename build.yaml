@@ -19,9 +19,9 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: say_gay_right
+    shield: say_gay_right nice_view_adapter nice_view
   - board: nice_nano_v2
-    shield: say_gay_left
+    shield: say_gay_left nice_view_adapter nice_view
   #- board: nice_nano_v2
   #  shield: corne_left nice_view_adapter nice_view
   #  cmake-args: -DKEYMAP_FILE=../../config/swept-corne.keymap -DCONFIG_ZMK_KEYBOARD_NAME=\"swept-corne\" -DEXTRA_CONF_FILE=../../config/swept-corne.conf
