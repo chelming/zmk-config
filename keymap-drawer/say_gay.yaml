@@ -12,12 +12,12 @@ layers:
   - ''''
   - {t: R, h: LGUI}
   - {t: S, h: LALT}
-  - {t: N, h: LSHFT}
-  - {t: T, h: LCTRL}
+  - {t: N, h: LCTRL}
+  - {t: T, h: LSHFT}
   - B
   - J
-  - {t: H, h: RCTRL}
-  - {t: E, h: RSHFT}
+  - {t: H, h: RSHFT}
+  - {t: E, h: RCTRL}
   - {t: I, h: LALT}
   - {t: A, h: LGUI}
   - W
@@ -28,7 +28,7 @@ layers:
   - .
   - {t: nav, h: sticky}
   - SPACE
-  - {t: LSHFT, h: sticky}
+  - {t: ESC, h: LSHFT}
   - {t: sym, h: sticky}
   nav:
   - F5
@@ -101,7 +101,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - ':'
   - ''
   - {t: '1', h: LGUI}
   - {t: '2', h: LALT}
@@ -117,8 +117,8 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ','
+  - .
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
