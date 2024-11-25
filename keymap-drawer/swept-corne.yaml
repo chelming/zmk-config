@@ -37,12 +37,12 @@ layers:
   - ''
   - ''
   - ''
-  - {t: nav, h: sticky}
+  - {t: Nav, h: sticky}
   - SPACE
   - {t: LSHFT, h: sticky}
-  - {t: sym, h: sticky}
+  - {t: Sym, h: sticky}
   - ''
-  nav:
+  Nav:
   - ''
   - F5
   - F6
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  sym:
+  Sym:
   - ''
   - '!'
   - '@'
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  num:
+  Num:
   - ''
   - BT CLR
   - {t: BT, h: '0'}
@@ -183,27 +183,27 @@ combos:
   l: [default]
 - p: [2, 14]
   k: '['
-  l: [default, sym, num]
+  l: [default, Sym, Num]
   draw_separate: true
 - p: [9, 21]
   k: ']'
-  l: [default, sym, num]
+  l: [default, Sym, Num]
   draw_separate: true
 - p: [3, 15]
   k: '{'
-  l: [default, sym, num]
+  l: [default, Sym, Num]
   draw_separate: true
 - p: [8, 20]
   k: '}'
-  l: [default, sym, num]
+  l: [default, Sym, Num]
   draw_separate: true
 - p: [4, 16]
   k: (
-  l: [default, sym, num]
+  l: [default, Sym, Num]
   draw_separate: true
 - p: [7, 19]
   k: )
-  l: [default, sym, num]
+  l: [default, Sym, Num]
   draw_separate: true
 - p: [5, 17]
   k: DEL
@@ -213,7 +213,7 @@ combos:
   draw_separate: true
 - p: [26, 27]
   k: Ctl+ A
-  l: [nav]
+  l: [Nav]
 - p: [14, 15, 16]
   k: TAB
   draw_separate: true
