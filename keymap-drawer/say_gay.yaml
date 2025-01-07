@@ -10,16 +10,16 @@ layers:
   - O
   - U
   - ''''
-  - {t: R, h: LGUI}
+  - {t: R, h: LCTRL}
   - {t: S, h: LALT}
-  - {t: N, h: LCTRL}
+  - {t: N, h: LGUI}
   - {t: T, h: LSHFT}
   - B
   - J
   - {t: H, h: LSHFT}
-  - {t: E, h: LCTRL}
+  - {t: E, h: LGUI}
   - {t: I, h: LALT}
-  - {t: A, h: LGUI}
+  - {t: A, h: LCTRL}
   - W
   - M
   - G
@@ -41,19 +41,19 @@ layers:
   - ↑
   - TAB
   - HOME
-  - LGUI
+  - LCTRL
   - LALT
   - LCTL
   - LSHFT
-  - Ctl+ Z
+  - Gui+Z
   - PG DN
   - ←
   - ENTER
   - →
   - END
-  - Ctl+ X
-  - Ctl+ C
-  - Ctl+ V
+  - Gui+X
+  - Gui+C
+  - Gui+V
   - BSPC
   - ↓
   - DEL
@@ -79,9 +79,9 @@ layers:
   - '`'
   - \
   - LSHFT
-  - LCTRL
-  - LALT
   - LGUI
+  - LALT
+  - LCTRL
   - _
   - +
   - '*'
@@ -103,16 +103,16 @@ layers:
   - ''
   - ':'
   - ''
-  - {t: '1', h: LGUI}
+  - {t: '1', h: LCTRL}
   - {t: '2', h: LALT}
-  - {t: '3', h: LCTRL}
+  - {t: '3', h: LGUI}
   - {t: '4', h: LSHFT}
   - '5'
   - '6'
   - {t: '7', h: LSHFT}
-  - {t: '8', h: LCTRL}
+  - {t: '8', h: LGUI}
   - {t: '9', h: LALT}
-  - {t: '0', h: LGUI}
+  - {t: '0', h: LCTRL}
   - ''
   - ''
   - ''
@@ -164,7 +164,7 @@ combos:
   k: ESC
   draw_separate: true
 - p: [20, 21]
-  k: Ctl+ A
+  k: Gui+A
   l: [Nav]
 - p: [11, 12, 13]
   k: TAB

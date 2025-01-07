@@ -60,7 +60,7 @@ layers:
   - LALT
   - LSHFT
   - LCTL
-  - Ctl+ Z
+  - Ctl+Z
   - PG DN
   - ←
   - ENTER
@@ -69,9 +69,9 @@ layers:
   - ''
   - ''
   - ''
-  - Ctl+ X
-  - Ctl+ C
-  - Ctl+ V
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - ''
   - ''
   - BSPC
@@ -212,7 +212,7 @@ combos:
   k: ESC
   draw_separate: true
 - p: [26, 27]
-  k: Ctl+ A
+  k: Ctl+A
   l: [Nav]
 - p: [14, 15, 16]
   k: TAB
