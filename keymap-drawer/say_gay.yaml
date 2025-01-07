@@ -43,7 +43,7 @@ layers:
   - HOME
   - LCTRL
   - LALT
-  - LCTL
+  - LGUI
   - LSHFT
   - Gui+Z
   - PG DN
