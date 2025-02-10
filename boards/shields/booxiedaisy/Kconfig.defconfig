@@ -1,0 +1,6 @@
+if SHIELD_BOOXIEDAISY
+
+config ZMK_KEYBOARD_NAME
+    default "Booxie Daisy"
+
+endif

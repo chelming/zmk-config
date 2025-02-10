@@ -1,0 +1,27 @@
+#include "booxiedaisy-layouts.dtsi"
+
+/ {
+    chosen {
+        zmk,kscan = &default_kscan;
+        zmk,physical-layout = &booxiedaisy_physical_layout;
+    };
+
+    matrix_transform0: keymap_transform_0 {
+        compatible = "zmk,matrix-transform";
+        columns = <2>;
+        rows = <1>;
+        map = <
+            RC(0,0) RC(1,0)
+        >;
+    };
+
+    default_kscan: kscan {
+        compatible = "zmk,kscan-gpio-direct";
+        label = "default_kscan";
+
+        input-gpios =
+            <&pro_micro  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
+            <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
+    };
+
+};
