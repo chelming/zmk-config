@@ -1,9 +1,14 @@
 #include "booxiedaisy-layouts.dtsi"
+#include <dt-bindings/zmk/matrix_transform.h>
+
+&physical_layout0 {
+    transform = <&matrix_transform0>;
+};
 
 / {
     chosen {
         zmk,kscan = &default_kscan;
-        zmk,physical-layout = &booxiedaisy_physical_layout;
+        zmk,physical-layout = &physical_layout0;
     };
 
     matrix_transform0: keymap_transform_0 {
