@@ -24,7 +24,7 @@ include:
 #    shield: say_gay_left nice_view_adapter nice_view
   - board: nice_nano_v2
     shield: booxiedaisy
-    snippet: studio-rpc-usb-uart zmk-usb-logging
+    snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   #- board: nice_nano_v2
   #  shield: corne_left nice_view_adapter nice_view
@@ -34,5 +34,5 @@ include:
   #  shield: corne_right nice_view_adapter nice_view
   #  cmake-args: -DKEYMAP_FILE=../../config/swept-corne.keymap -DCONFIG_ZMK_KEYBOARD_NAME=\"swept-corne\" -DEXTRA_CONF_FILE=../../config/swept-corne.conf
   #  artifact-name: swept_corne_right
-  #- board: nice_nano_v2
-  #  shield: settings_reset
+  - board: nice_nano_v2
+    shield: settings_reset
