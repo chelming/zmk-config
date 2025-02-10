@@ -11,7 +11,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&ext_power EP_TOG>, <&bt BT_CLR>;
+            bindings = <&studio_unlock>, <&ext_power EP_TOG>, <&bt BT_CLR>;
         };
     };
 
