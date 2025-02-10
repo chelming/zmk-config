@@ -28,7 +28,7 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                &kp K_VOLUME_UP    &kp K_VOLUME_DOWN
+                &kp C_VOLUME_UP    &kp C_VOLUME_DOWN
             >;
         };
 
