@@ -1,12 +1,9 @@
 #include <physical_layouts.dtsi>
 
 / {
-    booxiedaisy_physical_layout: booxiedaisy_physical_layout {
+    physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
-        display-name = "Macro Pad";
-        kscan = <&default_kscan>;
-        transform = <&default_transform>;
-
+        display-name = "Booxie Daisy";
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
             , <&key_physical_attrs 100 100  120    0       0     0     0>
