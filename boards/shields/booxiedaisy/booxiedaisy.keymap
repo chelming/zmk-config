@@ -10,7 +10,7 @@
         fn_btns: function_buttons {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <500>;
             bindings = <&studio_unlock>, <&ext_power EP_TOG>, <&bt BT_CLR>;
         };
     };
@@ -18,7 +18,7 @@
     combos {
         compatible = "zmk,combos";
         fn_combo {
-            timeout-ms = <50>;
+            timeout-ms = <150>;
             key-positions = <0 1>;
             bindings = <&fn_btns>;
         };
