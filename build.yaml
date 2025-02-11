@@ -34,5 +34,5 @@ include:
   #  shield: corne_right nice_view_adapter nice_view
   #  cmake-args: -DKEYMAP_FILE=../../config/swept-corne.keymap -DCONFIG_ZMK_KEYBOARD_NAME=\"swept-corne\" -DEXTRA_CONF_FILE=../../config/swept-corne.conf
   #  artifact-name: swept_corne_right
-  - board: nice_nano_v2
-    shield: settings_reset
+  #- board: nice_nano_v2
+  #  shield: settings_reset
