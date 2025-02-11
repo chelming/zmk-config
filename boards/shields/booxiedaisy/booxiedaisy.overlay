@@ -22,7 +22,7 @@
 
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-	diode-direction = "col2row"
+	diode-direction = "col2row";
         label = "default_kscan";
         wakeup-source;
 
