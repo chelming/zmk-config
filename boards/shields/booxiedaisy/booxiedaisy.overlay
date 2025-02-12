@@ -27,12 +27,12 @@
         wakeup-source;
 
         col-gpios =
-            <&pro_micro  6 (GPIO_ACTIVE_HIGH)>,
-            <&pro_micro 15 (GPIO_ACTIVE_HIGH)>
+            <&pro_micro  9 (GPIO_ACTIVE_HIGH)>,
+            <&pro_micro 10 (GPIO_ACTIVE_HIGH)>
             ;
         row-gpios =
-            <&pro_micro  3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            <&pro_micro  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+            <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
 
