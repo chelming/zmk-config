@@ -1,4 +1,4 @@
-name: Build Nice!Nano settings reset
+name: Build Xiao settings reset
 on:
   push:
     paths:
