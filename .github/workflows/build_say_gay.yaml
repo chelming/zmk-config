@@ -1,4 +1,4 @@
-name: Build Say Gay firmware
+name: Build firmware - Say Gay
 on:
   push:
     paths:

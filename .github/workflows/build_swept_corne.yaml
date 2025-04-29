@@ -1,4 +1,4 @@
-name: Build Swept Corne firmware
+name: Build firmware - Swept Corne
 on:
   push:
     paths:

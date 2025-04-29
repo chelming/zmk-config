@@ -1,4 +1,4 @@
-name: Build all firmware
+name: Build firmware - All
 on:
   push:
     paths:

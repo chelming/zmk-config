@@ -1,4 +1,4 @@
-name: Build Xiao settings reset
+name: Build settings reset - Xiao BLE
 on:
   push:
     paths:

@@ -1,4 +1,4 @@
-name: Build Nice!Nano settings reset
+name: Build settings reset - Nice!Nano
 on:
   push:
     paths:
