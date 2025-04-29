@@ -1,0 +1,14 @@
+name: Build Nice!Nano settings reset
+on:
+  push:
+    paths:
+      - "config/xiao_reset*"
+      - "build/build_xiao_reset.yaml"
+      - ".github/workflows/build_xiao_reset.yml"  
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      build_matrix_path: build/build_xiao_reset.yaml

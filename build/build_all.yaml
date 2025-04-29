@@ -1,0 +1,32 @@
+---
+include:
+  # Say Gay
+  - board: nice_nano_v2
+    shield: say_gay_right nice_view_adapter nice_view
+  - board: nice_nano_v2
+    shield: say_gay_left nice_view_adapter nice_view
+
+  # BooxieDaisy
+  - board: nice_nano_v2
+    shield: booxiedaisy
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+
+
+  # Swept Corne
+  - board: nice_nano_v2
+    shield: corne_left nice_view_adapter nice_view
+    cmake-args: -DKEYMAP_FILE=../../config/swept-corne.keymap -DCONFIG_ZMK_KEYBOARD_NAME=\"swept-corne\" -DEXTRA_CONF_FILE=../../config/swept-corne.conf
+    artifact-name: swept_corne_left
+  - board: nice_nano_v2
+    shield: corne_right nice_view_adapter nice_view
+    cmake-args: -DKEYMAP_FILE=../../config/swept-corne.keymap -DCONFIG_ZMK_KEYBOARD_NAME=\"swept-corne\" -DEXTRA_CONF_FILE=../../config/swept-corne.conf
+    artifact-name: swept_corne_right
+
+  # Nice!Nano settings reset
+  - board: nice_nano_v2
+    shield: settings_reset
+
+  # Xiao settings reset
+  - board: seeed_xiao_ble
+    shield: settings_reset

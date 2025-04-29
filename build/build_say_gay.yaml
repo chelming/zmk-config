@@ -1,0 +1,6 @@
+---
+include:
+  - board: nice_nano_v2
+    shield: say_gay_right nice_view_adapter nice_view
+  - board: nice_nano_v2
+    shield: say_gay_left nice_view_adapter nice_view
