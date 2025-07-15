@@ -1,10 +1,19 @@
-if SHIELD_SAY_GAY_LEFT
+if SHIELD_SAY_GAY_DONGLE
 
 config ZMK_KEYBOARD_NAME
     default "Say Gay"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 1
+
+CONFIG BT_MAX_CONN
+    default 6
+
+CONFIG BT_MAX_PAIRED
+    default 6
 
 endif
 
