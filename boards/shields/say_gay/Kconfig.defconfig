@@ -7,13 +7,13 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 1
+    default 2
 
-CONFIG BT_MAX_CONN
-    default 6
+config BT_MAX_CONN
+    default 3
 
-CONFIG BT_MAX_PAIRED
-    default 6
+config BT_MAX_PAIRED
+    default 3
 
 endif
 
