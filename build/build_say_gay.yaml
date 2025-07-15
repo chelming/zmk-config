@@ -1,6 +1,8 @@
 ---
 include:
+  - board: seeeduino_xiao_ble
+    shield: say_gay_left_dongle say_gay_right_dongle prospector_adapter
   - board: nice_nano_v2
-    shield: say_gay_right nice_view_adapter nice_view_gem
+    shield: say_gay_right
   - board: nice_nano_v2
-    shield: say_gay_left nice_view_adapter nice_view_gem
+    shield: say_gay_left

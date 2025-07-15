@@ -134,7 +134,7 @@
     };
     keymap {
         compatible = "zmk,keymap";
-
+        label = "Base";
         default_layer {
 
             bindings = <
@@ -151,7 +151,7 @@
         };
 
         nav_layer {
-	    label = "Nav";
+	    label = "Navigation";
             bindings = <
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &kp F5        &kp F6        &kp F7        &kp F8        &kp F1          &kp PG_UP     &kp ESC       &kp UP        &kp TAB       &kp HOME
@@ -166,7 +166,7 @@
         };
 
         sym_layer {
-            label = "Sym";
+            label = "Symbol";
             bindings = <
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET     &kp AMPS      &kp SEMI      &kp COLON     &kp QMARK
@@ -181,7 +181,7 @@
         };
 
         num {
-            label = "Num";
+            label = "Number";
             bindings = <
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &btd0         &btd1         &btd2         &btd3         &btd4           &none         &none         &none         &kp COLON     &none
