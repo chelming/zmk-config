@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: chelming
-      url-base: https://github.com/chelming
+    - name: badjeff
+      url-base: https://github.com/badjeff
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: prospector-zmk-module
-      remote: chelming
-      revision: dev
+      remote: badjeff
+      revision: main
   self:
     path: config
