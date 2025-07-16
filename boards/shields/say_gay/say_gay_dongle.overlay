@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "say_gay_dongle.h"
 
 / {
     chosen {
