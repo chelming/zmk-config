@@ -15,6 +15,9 @@ config BT_MAX_CONN
 config BT_MAX_PAIRED
     default 3
 
+config ZMK_SPLIT_BLE_PERIPHERAL_COUNT
+    default 2
+
 endif
 
 if SHIELD_SAY_GAY_LEFT || SHIELD_SAY_GAY_RIGHT
