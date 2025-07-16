@@ -9,15 +9,33 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     default 2
 
+# Add defines for prospector adapter compatibility
+config ZMK_SPLIT_BLE_PERIPHERAL_COUNT
+    int
+    default 2
+
+# The prospector adapter uses this non-CONFIG version
+menuconfig ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS_COMPAT
+    bool "ZMK Split BLE Central Peripherals Compatibility"
+    default y
+
+if ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS_COMPAT
+
+config PROSPECTOR_DEFINES
+    string
+    default "-DZMK_SPLIT_BLE_PERIPHERAL_COUNT=CONFIG_ZMK_SPLIT_BLE_PERIPHERAL_COUNT -DZMK_SPLIT_BLE_CENTRAL_PERIPHERALS=CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS"
+
+config COMPILER_OPT
+    string
+    default "${PROSPECTOR_DEFINES}"
+
+endif # ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS_COMPAT
+
 config BT_MAX_CONN
     default 3
 
 config BT_MAX_PAIRED
     default 3
-
-config ZMK_SPLIT_BLE_PERIPHERAL_COUNT
-    int
-    default 2
 
 endif
 
