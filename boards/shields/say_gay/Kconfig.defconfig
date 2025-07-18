@@ -9,15 +9,9 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     default 2
 
-config BT_MAX_CONN
-    default 5
-
-config BT_MAX_PAIRED
-    default 5
-
 endif
 
-if SHIELD_SAY_GAY_LEFT || SHIELD_SAY_GAY_RIGHT
+if SHIELD_SAY_GAY_DONGLE || SHIELD_SAY_GAY_LEFT || SHIELD_SAY_GAY_RIGHT
 
 config ZMK_SPLIT
     default y
