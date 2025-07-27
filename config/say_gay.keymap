@@ -40,7 +40,7 @@
     behaviors {
         mtl: mod_tap_left {
             compatible = "zmk,behavior-hold-tap";
-            label = "MOD_TAP_LEFT";
+            display-name = "MOD_TAP_LEFT";
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <280>;
@@ -51,7 +51,7 @@
         };
         mtr: mod_tap_right {
             compatible = "zmk,behavior-hold-tap";
-            label = "MOD_TAP_RIGHT";
+            display-name = "MOD_TAP_RIGHT";
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <280>;
@@ -62,30 +62,35 @@
         };
         btd0: bluetooth_tap_dance0 {
             compatible = "zmk,behavior-tap-dance";
+            display-name = "BT TD0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&none>, <&bt BT_SEL 0>;
         };
         btd1: bluetooth_tap_dance1 {
             compatible = "zmk,behavior-tap-dance";
+            display-name = "BT TD1";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&none>, <&bt BT_SEL 1>;
         };
         btd2: bluetooth_tap_dance2 {
             compatible = "zmk,behavior-tap-dance";
+            display-name = "BT TD2";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&none>, <&bt BT_SEL 2>;
         };
         btd3: bluetooth_tap_dance3 {
             compatible = "zmk,behavior-tap-dance";
+            display-name = "BT TD3";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&none>, <&bt BT_SEL 3>;
         };
         btd4: bluetooth_tap_dance4 {
             compatible = "zmk,behavior-tap-dance";
+            display-name = "BT TD4";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&none>, <&bt BT_SEL 4>;
@@ -134,7 +139,7 @@
     };
     keymap {
         compatible = "zmk,keymap";
-        label = "Base";
+        display-name = "Base";
         default_layer {
 
             bindings = <
@@ -151,7 +156,7 @@
         };
 
         nav_layer {
-	    label = "Navigation";
+	    display-name = "Nav";
             bindings = <
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &kp F5        &kp F6        &kp F7        &kp F8        &kp F1          &kp PG_UP     &kp ESC       &kp UP        &kp TAB       &kp HOME
@@ -166,7 +171,7 @@
         };
 
         sym_layer {
-            label = "Symbol";
+            display-name = "Sym";
             bindings = <
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET     &kp AMPS      &kp SEMI      &kp COLON     &kp QMARK
@@ -181,7 +186,7 @@
         };
 
         num {
-            label = "Number";
+            display-name = "Num";
             bindings = <
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &btd0         &btd1         &btd2         &btd3         &btd4           &none         &none         &none         &kp COLON     &none
