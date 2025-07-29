@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: say_gay}
 layers:
-  default:
+  Base:
   - X
   - C
   - L
@@ -127,36 +127,36 @@ layers:
 combos:
 - p: [1, 2]
   k: V
-  l: [default]
+  l: [Base]
 - p: [2, 3]
   k: Q
-  l: [default]
+  l: [Base]
 - p: [20, 21]
   k: Z
-  l: [default]
+  l: [Base]
 - p: [3, 13]
   k: (
-  l: [default, Sym, Num]
+  l: [Base, Sym, Num]
   draw_separate: true
 - p: [6, 16]
   k: )
-  l: [default, Sym, Num]
+  l: [Base, Sym, Num]
   draw_separate: true
 - p: [2, 12]
   k: '{'
-  l: [default, Sym, Num]
+  l: [Base, Sym, Num]
   draw_separate: true
 - p: [7, 17]
   k: '}'
-  l: [default, Sym, Num]
+  l: [Base, Sym, Num]
   draw_separate: true
 - p: [1, 11]
   k: '['
-  l: [default, Sym, Num]
+  l: [Base, Sym, Num]
   draw_separate: true
 - p: [8, 18]
   k: ']'
-  l: [default, Sym, Num]
+  l: [Base, Sym, Num]
   draw_separate: true
 - p: [4, 14]
   k: DEL
