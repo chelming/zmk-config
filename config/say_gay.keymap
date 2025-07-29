@@ -139,9 +139,8 @@
     };
     keymap {
         compatible = "zmk,keymap";
-        display-name = "Base";
         default_layer {
-
+            display-name = "Base";
             bindings = <
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &kp X         &kp C         &kp L         &kp F         &kp P           &kp K         &kp Y         &kp O         &kp U         &kp QUOT
