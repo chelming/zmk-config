@@ -17,3 +17,13 @@ config ZMK_SPLIT
     default y
 
 endif
+
+if !SHILED_SAY_GAY_DONGLE && SHIELD_SAY_GAY_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Say Gay"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif

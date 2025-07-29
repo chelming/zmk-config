@@ -4,6 +4,7 @@ on:
     paths:
       - "config/say_gay*"
       - "build/build_say_gay.yaml"
+      - "boards/shileds/say_gay/*"
       - ".github/workflows/build_say_gay.yml"  
   workflow_dispatch:
 

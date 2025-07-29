@@ -1,0 +1,16 @@
+name: Build firmware - Say Gay Dongle
+on:
+  push:
+    paths:
+      - "config/say_gay*"
+      - "build/build_say_gay_dongle.yaml"
+      - "boards/shields/say_gay/*"
+      - ".github/workflows/build_say_gay_dongle.yml"  
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      build_matrix_path: build/build_say_gay_dongle.yaml
+      archive_name: say_gay_dongle
