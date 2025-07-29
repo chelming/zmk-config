@@ -2,12 +2,9 @@
 include:
   - board: seeeduino_xiao_ble
     shield: say_gay_dongle prospector_adapter
-    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: say_gay_right
-    snippet: zmk-usb-logging
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano_v2
     shield: say_gay_left
-    snippet: zmk-usb-logging
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
