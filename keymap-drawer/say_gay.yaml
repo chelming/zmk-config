@@ -29,7 +29,7 @@ layers:
   - .
   - {t: Nav, h: sticky}
   - SPACE
-  - {t: ESC, h: LSHFT}
+  - '&esctd'
   - {t: Sym, h: sticky}
   Nav:
   - F5
@@ -167,7 +167,6 @@ combos:
 - p: [20, 21]
   k: Gui+A
   l: [Nav]
-  a: bottom
 - p: [11, 12, 13]
   k: TAB
   draw_separate: true
@@ -181,4 +180,3 @@ combos:
 - p: [1, 2, 3]
   k: BT CLR
   l: [Num]
-  a: top
